@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; --text: #0f172a; --sub: #64748b; --bg: #f8fafc; --accent: #4f46e5; }
+@media (prefers-color-scheme: dark) { :root { --text: #e2e8f0; --sub: #94a3b8; --bg: #0f172a; --accent: #818cf8; } }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 28px; margin: 0 0 4px; }
+h2 { font-size: 18px; margin: 32px 0 8px; }
+.meta { color: var(--sub); font-size: 14px; }
+a { color: var(--accent); }
